@@ -5,6 +5,7 @@ font-family: 'Orbitron', sans-serif;
 
 body {
 	background-color: #0070ba;
+	height: 100%;
 }
 
 #logo {
@@ -223,3 +224,46 @@ hr.styleTwo {
 	font-size: 16pt;
 	font-weight: 700;
 }
+
+
+    /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ #timeLeft {
+	font-size: 14pt;
+	font-weight: 700;
+}
+
+.timerContainer {
+	width: 200px;
+}
+
+.questionsLeftContainer {
+	width: 200px;
+}
+
+#timeShow{
+	font-size: 16pt;
+}
+
+#question {
+	font-size: 20pt;
+}
+
+#answers li {
+	font-size: 16pt;
+}
+
+#answerText {
+	font-size: 16pt;
+}
+
+#correct {
+	font-size: 20pt;
+}
+
+#incorrect {
+	font-size: 20pt;
+}
+
+
+    }
