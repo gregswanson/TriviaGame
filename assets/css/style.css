@@ -1,11 +1,7 @@
 /*
-
 font-family: 'Open Sans', sans-serif;
-
 font-family: 'Orbitron', sans-serif;
-
 */
-
 
 body {
 	background-color: #0070ba;
@@ -18,7 +14,8 @@ body {
 }
 
 #castImage{
-	width: 100%;
+	width: 90%;
+	max-width: 833px;
 }
 
 .start {
@@ -36,16 +33,13 @@ body {
 .start:hover {
 	background-color: #fcd720;
 	color: #000;
-
-
 }
-
 
 .containerBack {
 	border-radius: 25px;
 	border: 7px solid #e30922;
 	background-color: #fff;
-	overflow: hidden;
+	min-height: 100%;
 }
 
 .game {
@@ -58,9 +52,8 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding: 0px 20px;
 }
-
-
 
 /* Timer */
 .timerContainer {
@@ -68,7 +61,6 @@ body {
 	background-color: #e30922;
 	border-radius: 0px 0px 15px 15px;
 	width: 300px;
-
 }
 
 #timeLeft {
@@ -92,7 +84,6 @@ body {
 }
 
 /* Quiz Container */
-
 .quizContainer {
 	margin-top: 40px;
 	padding: 15px;
@@ -102,9 +93,7 @@ body {
 	border-radius: 15px;
 	background: rgba(255, 255, 255, .8);
 	box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.7);
-
 }
-
 
 #question {
 	padding-bottom: 10px;
@@ -112,6 +101,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24pt;
 	font-weight: 700;
+	line-height: 1.25;
 	color: #000;
 	text-align: left;
 }
@@ -132,7 +122,6 @@ body {
 }
 
 #answers li:hover {
-
 	background-color: rgba(252,215,32,0.5); 
 	border-radius: 5px;
 }
@@ -140,7 +129,7 @@ body {
 /* answer container */
 #answerImg {
 	width: 350px;
-	height: 150px;
+	height: 200px;
 	margin: 20px auto;
 	border: 2px solid #000;
 }
@@ -151,17 +140,22 @@ body {
 	font-weight: 700;
 	color: #000;
 	text-align: center;
-
+	padding-top: 10px;
 }
 
 #correct {
-	color: green;
+	color: #2bc213;
+	font-size: 24pt;
+	line-height: 1.25;
+	text-shadow: 1px 1px #000;
 }
 
 #incorrect {
-	color: red;
+	color: #e30922;
+	font-size: 24pt;
+	line-height: 1.25;
+	text-shadow: 1px 1px #000;
 }
-
 
 #endOfGame {
 	font-family: 'Open Sans', sans-serif;
@@ -169,7 +163,7 @@ body {
 	font-weight: 700;
 	color: #000;
 	text-align: center;
-	padding: 20px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 }
 
 #score {
@@ -177,9 +171,7 @@ body {
 	font-size: 20pt;
 	font-weight: 700;
 	color: #000;
-	text-align: center;
-	
-
+	text-align: center;	
 }
 
 #percent {
@@ -192,13 +184,11 @@ body {
 	margin-top: 20px;
 }
 
-
 hr.styleOne {
     height: 12px;
     border: 0;
     box-shadow: inset 0 -12px 12px -12px rgba(0, 0, 0, 0.5);
 }
-
 
 hr.styleTwo {
     height: 12px;
@@ -212,7 +202,6 @@ hr.styleTwo {
 	background-color: #e30922;
 	border-radius: 15px 15px 0px 0px;
 	width: 300px;
-
 }
 
 #questionsLeft {
